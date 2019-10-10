@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "binary_search"
+require_relative "../binary_search"
 
 describe BinarySearch do
   it "returns proper position" do

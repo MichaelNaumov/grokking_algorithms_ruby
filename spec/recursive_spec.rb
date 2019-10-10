@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "recursive"
+require_relative "../recursive"
 
 describe Recursive do
   context "factorial" do

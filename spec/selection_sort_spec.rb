@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "selection_sort"
+require_relative "../selection_sort"
 
 describe SelectionSort do
   it "returns ordered array" do
