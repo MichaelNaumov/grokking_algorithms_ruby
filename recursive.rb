@@ -18,4 +18,13 @@ module Recursive
       num * factorial(num - 1)
     end
   end
+
+  def self.sum arr
+    raise ArgumentError, "Argument should be an array" unless arr.kind_of?(Array)
+    if arr.empty?
+      0
+    else
+      arr.shift + sum(arr)
+    end
+  end
 end
